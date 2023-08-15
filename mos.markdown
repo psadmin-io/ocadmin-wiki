@@ -1,6 +1,6 @@
 ---
 title: Searching in My Oracle Support
-layout: en
+layout: page
 permalink: /posts/getting_started/mos_searching/
 ---
 

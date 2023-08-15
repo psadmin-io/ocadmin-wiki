@@ -1,6 +1,6 @@
 ---
 title: Compute
-layout: en
+layout: page
 permalink: /posts/compute/
 ---
 
