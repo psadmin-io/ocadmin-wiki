@@ -13,17 +13,18 @@ The Database CLI (dbcli) is a command line interface available for Base Database
 ## Version
 
 ```
-rpm -qa|egrep 'dcs|exa|dbaas'
+sudo rpm -qa|egrep 'dcs|exa|dbaas'
 ```
 
 ## Update
 
+It is a good idea to keep the `dbcli` components up to date. Use the `cliadm update-dbcli` to update to the latest versions. If you are running RAC, make sure to run this on both nodes.
+
 ```
-sudo -s
-rpm -qa|egrep 'dcs|exa|dbaas'
-/opt/oracle/dcs/bin/cliadm update-dbcli
-/opt/oracle/dcs/bin/cliadm list-jobs | tail
-rpm -qa|egrep 'dcs|exa|dbaas'
+sudo rpm -qa|egrep 'dcs|exa|dbaas'
+sudo /opt/oracle/dcs/bin/cliadm update-dbcli
+sudo /opt/oracle/dcs/bin/cliadm list-jobs | tail
+sudo rpm -qa|egrep 'dcs|exa|dbaas'
 ```
 
 ## Jobs
