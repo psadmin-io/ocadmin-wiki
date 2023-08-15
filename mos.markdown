@@ -1,7 +1,9 @@
 ---
 title: Searching in My Oracle Support
 layout: page
-permalink: /posts/getting_started/mos_searching/
+permalink: /posts/general/mos_searching/
+parent: General
+#nav_order: 1
 ---
 
 Some tips when searching in My Oracle Support to help you find relevant documents.
