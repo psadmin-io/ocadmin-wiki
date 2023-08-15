@@ -17,5 +17,6 @@ For information to come... TODO
 
 ## Contact
 
-dan & kyle @ [psadmin.io](https://psadmin.io)
+dan & kyle // [psadmin.io](https://psadmin.io)
+
 [info@psadmin.io](mailto:info@psadmin.io)
