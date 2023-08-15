@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Oracle Cloud Administrator
+title: Oracle Cloud Administrator Wiki
 email: info@psadmin.io
 description: >- # this means to ignore newlines until "baseurl:"
   This is a community Wiki to help document useful information
