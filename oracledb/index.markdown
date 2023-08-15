@@ -1,7 +1,7 @@
 ---
 title: Oracle Database
 layout: page
-permalink: /posts/oracledatabase/
+permalink: /posts/oracledb/
 nav_order: 5
 ---
 
