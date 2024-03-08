@@ -13,7 +13,7 @@ The Community Wiki is a place for Oracle Cloud Administrators to share documenta
 
 Anyone can contribute to the Community Wiki.
 
-For information to come... TODO
+More information to come...
 
 ## Contact
 
