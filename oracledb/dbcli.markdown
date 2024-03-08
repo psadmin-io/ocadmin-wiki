@@ -29,11 +29,39 @@ sudo rpm -qa|egrep 'dcs|exa|dbaas'
 
 ## Jobs
 
-TODO
+```
+sudo -s
+
+/opt/oracle/dcs/bin/dbcli list-jobs
+/opt/oracle/dcs/bin/dbcli list-jobs | grep Failure
+
+JOB_ID=f55c65fd-62d4-4900-bd92-d517ecc18981 # ID of DCS Job
+/opt/oracle/dcs/bin/dbcli describe-job -i $JOB_ID
+/opt/oracle/dcs/bin/dbcli describe-job -i $JOB_ID -l Verbose
+```
 
 ## Logs
 
-TODO
+```
+sudo -s
+
+# Common Logs
+cd /opt/oracle/dcs/log
+ll ./dcs-admin*.log
+ll ./dcs-agent*.log
+ll ./dcs-agent-debug*.log
+ll ./dcsagent-stderr*.log
+
+# Job Logs
+JOB_ID=f55c65fd-62d4-4900-bd92-d517ecc18981 # ID of DCS Job
+cd /opt/oracle/dcs/log
+ll ./jobs/$JOB_ID.log
+grep ORA- ./jobs/$JOB_ID.log # Find ORA errors
+
+# RMAN Logs
+cd /opt/oracle/dcs/log
+ll -tr ./$(hostname)/rman/bkup/*/
+```
 
 ## Gather DCS Info for an SR
 
